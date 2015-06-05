@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D1280741B174F7700868FF7 /* RungeKuttaSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1280731B174F7700868FF7 /* RungeKuttaSolver.cpp */; };
+		2D79FF141B01F50B002BAEF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D79FF131B01F50B002BAEF3 /* main.cpp */; };
+		2D79FF291B01F6ED002BAEF3 /* ComplexNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D79FF281B01F6ED002BAEF3 /* ComplexNumber.cpp */; };
+		2D79FF2B1B02072D002BAEF3 /* CalculateExponential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D79FF2A1B02072D002BAEF3 /* CalculateExponential.cpp */; };
+		2D79FF2D1B020A22002BAEF3 /* Matrix2x2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D79FF2C1B020A22002BAEF3 /* Matrix2x2.cpp */; };
+		2D79FF2F1B0216DF002BAEF3 /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D79FF2E1B0216DF002BAEF3 /* Student.cpp */; };
+		2D79FF311B0217F5002BAEF3 /* GraduateStudent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D79FF301B0217F5002BAEF3 /* GraduateStudent.cpp */; };
+		2D79FF331B023613002BAEF3 /* PhdStudent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D79FF321B023613002BAEF3 /* PhdStudent.cpp */; };
+		2D79FF351B023862002BAEF3 /* AbstractOdeSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D79FF341B023862002BAEF3 /* AbstractOdeSolver.cpp */; };
+		2D79FF371B023907002BAEF3 /* FowardEulerSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D79FF361B023907002BAEF3 /* FowardEulerSolver.cpp */; };
+		2D79FF4C1B024B25002BAEF3 /* OutOfRangeException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D79FF4B1B024B25002BAEF3 /* OutOfRangeException.cpp */; };
+		2D79FF4E1B024B62002BAEF3 /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D79FF4D1B024B62002BAEF3 /* Exception.cpp */; };
+		2D79FF501B024C5D002BAEF3 /* FileNotOpenException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D79FF4F1B024C5D002BAEF3 /* FileNotOpenException.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D79FF0E1B01F50B002BAEF3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D1280721B174F4700868FF7 /* RungeKuttaSolver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RungeKuttaSolver.hpp; sourceTree = "<group>"; };
+		2D1280731B174F7700868FF7 /* RungeKuttaSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RungeKuttaSolver.cpp; sourceTree = "<group>"; };
+		2D79FF101B01F50B002BAEF3 /* Submission2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Submission2; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D79FF131B01F50B002BAEF3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2D79FF1A1B01F52A002BAEF3 /* AbstractOdeSolver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AbstractOdeSolver.hpp; sourceTree = "<group>"; };
+		2D79FF1B1B01F52A002BAEF3 /* CalculateExponential.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CalculateExponential.hpp; sourceTree = "<group>"; };
+		2D79FF1C1B01F52A002BAEF3 /* ComplexNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ComplexNumber.hpp; sourceTree = "<group>"; };
+		2D79FF1D1B01F52A002BAEF3 /* Exception.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Exception.hpp; sourceTree = "<group>"; };
+		2D79FF1E1B01F52A002BAEF3 /* Exercise82.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Exercise82.hpp; sourceTree = "<group>"; };
+		2D79FF1F1B01F52A002BAEF3 /* FileNotOpenException.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileNotOpenException.hpp; sourceTree = "<group>"; };
+		2D79FF201B01F52A002BAEF3 /* FowardEulerSolver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FowardEulerSolver.hpp; sourceTree = "<group>"; };
+		2D79FF211B01F52A002BAEF3 /* GraduateStudent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraduateStudent.hpp; sourceTree = "<group>"; };
+		2D79FF221B01F52A002BAEF3 /* Matrix2x2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Matrix2x2.hpp; sourceTree = "<group>"; };
+		2D79FF231B01F52A002BAEF3 /* OutOfRangeException.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OutOfRangeException.hpp; sourceTree = "<group>"; };
+		2D79FF241B01F52A002BAEF3 /* PhdStudent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PhdStudent.hpp; sourceTree = "<group>"; };
+		2D79FF251B01F52A002BAEF3 /* Student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
+		2D79FF281B01F6ED002BAEF3 /* ComplexNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ComplexNumber.cpp; sourceTree = "<group>"; };
+		2D79FF2A1B02072D002BAEF3 /* CalculateExponential.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CalculateExponential.cpp; sourceTree = "<group>"; };
+		2D79FF2C1B020A22002BAEF3 /* Matrix2x2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix2x2.cpp; sourceTree = "<group>"; };
+		2D79FF2E1B0216DF002BAEF3 /* Student.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		2D79FF301B0217F5002BAEF3 /* GraduateStudent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraduateStudent.cpp; sourceTree = "<group>"; };
+		2D79FF321B023613002BAEF3 /* PhdStudent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhdStudent.cpp; sourceTree = "<group>"; };
+		2D79FF341B023862002BAEF3 /* AbstractOdeSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractOdeSolver.cpp; sourceTree = "<group>"; };
+		2D79FF361B023907002BAEF3 /* FowardEulerSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FowardEulerSolver.cpp; sourceTree = "<group>"; };
+		2D79FF4B1B024B25002BAEF3 /* OutOfRangeException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OutOfRangeException.cpp; sourceTree = "<group>"; };
+		2D79FF4D1B024B62002BAEF3 /* Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exception.cpp; sourceTree = "<group>"; };
+		2D79FF4F1B024C5D002BAEF3 /* FileNotOpenException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileNotOpenException.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D79FF0D1B01F50B002BAEF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D79FF071B01F50B002BAEF3 = {
+			isa = PBXGroup;
+			children = (
+				2D79FF121B01F50B002BAEF3 /* Submission2 */,
+				2D79FF111B01F50B002BAEF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D79FF111B01F50B002BAEF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D79FF101B01F50B002BAEF3 /* Submission2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D79FF121B01F50B002BAEF3 /* Submission2 */ = {
+			isa = PBXGroup;
+			children = (
+				2D79FF261B01F52F002BAEF3 /* Headers */,
+				2D79FF271B01F53C002BAEF3 /* Implementation */,
+				2D79FF131B01F50B002BAEF3 /* main.cpp */,
+			);
+			path = Submission2;
+			sourceTree = "<group>";
+		};
+		2D79FF261B01F52F002BAEF3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2D1280721B174F4700868FF7 /* RungeKuttaSolver.hpp */,
+				2D79FF1A1B01F52A002BAEF3 /* AbstractOdeSolver.hpp */,
+				2D79FF1B1B01F52A002BAEF3 /* CalculateExponential.hpp */,
+				2D79FF1C1B01F52A002BAEF3 /* ComplexNumber.hpp */,
+				2D79FF1D1B01F52A002BAEF3 /* Exception.hpp */,
+				2D79FF1E1B01F52A002BAEF3 /* Exercise82.hpp */,
+				2D79FF1F1B01F52A002BAEF3 /* FileNotOpenException.hpp */,
+				2D79FF201B01F52A002BAEF3 /* FowardEulerSolver.hpp */,
+				2D79FF211B01F52A002BAEF3 /* GraduateStudent.hpp */,
+				2D79FF221B01F52A002BAEF3 /* Matrix2x2.hpp */,
+				2D79FF231B01F52A002BAEF3 /* OutOfRangeException.hpp */,
+				2D79FF241B01F52A002BAEF3 /* PhdStudent.hpp */,
+				2D79FF251B01F52A002BAEF3 /* Student.hpp */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		2D79FF271B01F53C002BAEF3 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				2D79FF2A1B02072D002BAEF3 /* CalculateExponential.cpp */,
+				2D79FF281B01F6ED002BAEF3 /* ComplexNumber.cpp */,
+				2D79FF2C1B020A22002BAEF3 /* Matrix2x2.cpp */,
+				2D79FF2E1B0216DF002BAEF3 /* Student.cpp */,
+				2D79FF301B0217F5002BAEF3 /* GraduateStudent.cpp */,
+				2D79FF321B023613002BAEF3 /* PhdStudent.cpp */,
+				2D79FF341B023862002BAEF3 /* AbstractOdeSolver.cpp */,
+				2D79FF361B023907002BAEF3 /* FowardEulerSolver.cpp */,
+				2D79FF4B1B024B25002BAEF3 /* OutOfRangeException.cpp */,
+				2D79FF4D1B024B62002BAEF3 /* Exception.cpp */,
+				2D79FF4F1B024C5D002BAEF3 /* FileNotOpenException.cpp */,
+				2D1280731B174F7700868FF7 /* RungeKuttaSolver.cpp */,
+			);
+			name = Implementation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D79FF0F1B01F50B002BAEF3 /* Submission2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D79FF171B01F50B002BAEF3 /* Build configuration list for PBXNativeTarget "Submission2" */;
+			buildPhases = (
+				2D79FF0C1B01F50B002BAEF3 /* Sources */,
+				2D79FF0D1B01F50B002BAEF3 /* Frameworks */,
+				2D79FF0E1B01F50B002BAEF3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Submission2;
+			productName = Submission2;
+			productReference = 2D79FF101B01F50B002BAEF3 /* Submission2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D79FF081B01F50B002BAEF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ChristianEnevoldsen;
+				TargetAttributes = {
+					2D79FF0F1B01F50B002BAEF3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2D79FF0B1B01F50B002BAEF3 /* Build configuration list for PBXProject "Submission2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D79FF071B01F50B002BAEF3;
+			productRefGroup = 2D79FF111B01F50B002BAEF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D79FF0F1B01F50B002BAEF3 /* Submission2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D79FF0C1B01F50B002BAEF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D79FF141B01F50B002BAEF3 /* main.cpp in Sources */,
+				2D79FF4E1B024B62002BAEF3 /* Exception.cpp in Sources */,
+				2D79FF2B1B02072D002BAEF3 /* CalculateExponential.cpp in Sources */,
+				2D79FF291B01F6ED002BAEF3 /* ComplexNumber.cpp in Sources */,
+				2D79FF4C1B024B25002BAEF3 /* OutOfRangeException.cpp in Sources */,
+				2D79FF2F1B0216DF002BAEF3 /* Student.cpp in Sources */,
+				2D79FF331B023613002BAEF3 /* PhdStudent.cpp in Sources */,
+				2D79FF351B023862002BAEF3 /* AbstractOdeSolver.cpp in Sources */,
+				2D79FF371B023907002BAEF3 /* FowardEulerSolver.cpp in Sources */,
+				2D1280741B174F7700868FF7 /* RungeKuttaSolver.cpp in Sources */,
+				2D79FF2D1B020A22002BAEF3 /* Matrix2x2.cpp in Sources */,
+				2D79FF311B0217F5002BAEF3 /* GraduateStudent.cpp in Sources */,
+				2D79FF501B024C5D002BAEF3 /* FileNotOpenException.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D79FF151B01F50B002BAEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2D79FF161B01F50B002BAEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2D79FF181B01F50B002BAEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D79FF191B01F50B002BAEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D79FF0B1B01F50B002BAEF3 /* Build configuration list for PBXProject "Submission2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D79FF151B01F50B002BAEF3 /* Debug */,
+				2D79FF161B01F50B002BAEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D79FF171B01F50B002BAEF3 /* Build configuration list for PBXNativeTarget "Submission2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D79FF181B01F50B002BAEF3 /* Debug */,
+				2D79FF191B01F50B002BAEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D79FF081B01F50B002BAEF3 /* Project object */;
+}
